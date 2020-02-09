@@ -16,5 +16,5 @@ install:
   - cd ../../
 
 scripts: 
-  - node test:unit
+  - npm run test:unit
 
