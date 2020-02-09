@@ -2,16 +2,16 @@ const path = require('path');
 const webpack = require('webpack');
 const rimraf = require('rimraf');
 const Mocha = require('mocha');
-const prodConfig = require('../../lib/webpack.prod.js');
 
 const mocha = new Mocha({
   timeout: '20000ms', // 设置超时时间
 });
 
 process.chdir(path.join(__dirname, '..', 'template'));
+const prodConfig = require('../../lib/webpack.prod.js');
 
 rimraf('./prod/dist', () => {
-  webpack(prodConfig, (err, stats) => {
+  ebpack(prodConfig, (err, stats) => {
     if (err) {
       console.log(err); // eslint-disable-line
       process.exit(2);
