@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import _ from 'lodash';
-// import feiji from '@/static/images/feiji.jpg'
 import '@/static/styles/style.less';
-// import common from '@/static/js/inline';
 
 import largeNumber from 'learning-large-number';
 
