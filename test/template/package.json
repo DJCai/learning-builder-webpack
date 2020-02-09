@@ -2,7 +2,6 @@
   "name": "learningJiKe",
   "version": "1.0.0",
   "description": "",
-  "private": true,
   "sideEffects": [
     "*.css",
     "*.scss",
