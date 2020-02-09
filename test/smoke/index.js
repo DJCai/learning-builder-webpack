@@ -11,7 +11,7 @@ process.chdir(path.join(__dirname, '..', 'template'));
 const prodConfig = require('../../lib/webpack.prod.js');
 
 rimraf('./prod/dist', () => {
-  ebpack(prodConfig, (err, stats) => {
+  webpack(prodConfig, (err, stats) => {
     if (err) {
       console.log(err); // eslint-disable-line
       process.exit(2);
