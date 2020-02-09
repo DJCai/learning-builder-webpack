@@ -1,5 +1,5 @@
 {
-  "name": "learningJiKe",
+  "name": "learning-builder-webpack",
   "version": "1.0.0",
   "description": "",
   "sideEffects": [
@@ -8,6 +8,7 @@
     "*.sass",
     "*.less"
   ],
+  "main": "indes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js_build": "eslint ./build/**/*.js --fix",
